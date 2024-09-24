@@ -1,0 +1,11 @@
+emp_details={
+    "name":["rohit","virat","arjun","sai","jagadeesh"],
+    "age":["38","37","42","24","22"],
+    "salary":["70000","65000","80000","50000","45000"]
+}
+sum=0
+for i,j in emp_details.items():
+    if i=='salary':
+        print(max(j))
+        print(min(j))
+        
